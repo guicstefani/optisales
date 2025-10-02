@@ -10,6 +10,7 @@ import Clients from "./pages/Clients";
 import Analytics from "./pages/Analytics";
 import Targets from "./pages/Targets";
 import Settings from "./pages/Settings";
+import Calculator from "./pages/Calculator";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,6 +30,7 @@ const App = () => (
               <Route path="/clients" element={<Clients />} />
               <Route path="/analytics" element={<Analytics />} />
               <Route path="/targets" element={<Targets />} />
+              <Route path="/calculator" element={<Calculator />} />
               <Route path="/settings" element={<Settings />} />
               <Route path="*" element={<NotFound />} />
             </Routes>

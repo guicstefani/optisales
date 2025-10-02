@@ -6,6 +6,7 @@ import {
   TrendingUp,
   Settings,
   Target,
+  Calculator,
 } from "lucide-react";
 
 const menuItems = [
@@ -14,6 +15,7 @@ const menuItems = [
   { icon: Users, label: "Clientes", path: "/clients" },
   { icon: TrendingUp, label: "Analytics", path: "/analytics" },
   { icon: Target, label: "Metas", path: "/targets" },
+  { icon: Calculator, label: "Calculadora", path: "/calculator" },
   { icon: Settings, label: "Configurações", path: "/settings" },
 ];
 
